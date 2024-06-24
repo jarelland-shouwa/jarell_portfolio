@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jarell Song</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="FinalLogo6/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="FinalLogo6/favicon-32x32.png">
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="FinalLogo/favicon-16x16.png"> -->
+    <link rel="manifest" href="FinalLogo6/site.webmanifest">
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <img src="EnlighteningMe.JPG" alt="My image" />
+      <a href="index.html" class="link--name">Jarelland</a>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Achievements">Achievements</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#MyJourney">My unique odyssey</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <div class="about center">
+      <h2 class="about__role">International Exchange Programme to Jakarta, 2023</h2>
+    </div>
+    <div class="carousel">
+      <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <img src="JakartaIEP2023/BBS_CHarged!!! copy.JPG" alt="At Charged Indonesia">
+          <div class="caption">Visiting a Charged Indonesia factory</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="JakartaIEP2023/BBS_classroom copy.jpeg" alt="Classroom immersion in Bina Bangsa School">
+          <div class="caption">Classroom immersion in Bina Bangsa School<br><br>
+            I really enjoyed the interaction with the BBS buddies. The conversations we had were insightful and interesting. I am sure I will remember this moment. Moreover, the project collaboration with BBS was impactful on me because I was able to gain new perspectives from the BBS students. I also learnt many other factors, like private transportation, that contributed to the poor air quality in Jakarta other than the usual forest fires in Indonesia.
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <img src="JakartaIEP2023/BBS_indoensian_food copy.jpg" alt="Enjoying Indonesian cuisine">
+          <div class="caption">Enjoying Indonesian cuisine<br><br>
+            Concerning Indonesia’s culture and heritage, I was able to appreciate and immerse myself in it. I ate local food for lunch and dinner, saw how BBS operates as a school and understood some history of Indonesia and its provinces. I suppose this trip also had some cultural immersion involved, so as to broaden our views of Indonesia.</div>
+        </div>
+        <div class="carousel-slide">
+            <img src="JakartaIEP2023/BBS_Jakarta_own_team_award copy.JPG" alt="Receiving an award for having one of the best team presentations">
+            <div class="caption">Receiving an award for having one of the best team presentations</div>
+        </div>
+        <div class="carousel-slide">
+            <img src="JakartaIEP2023/BBS_presentation copy.JPG" alt="Presenting our air quality study to judges from SST and BBS">
+            <div class="caption">Presenting our air quality study to judges from SST and BBS</div>
+        </div>
+        <div class="carousel-slide">
+            <img src="JakartaIEP2023/JakartaIEP_Image1.jpeg" alt="At Bina Bangsa School">
+            <div class="caption">At Bina Bangsa School</div>
+        </div>
+        <div class="carousel-slide">
+            <img src="JakartaIEP2023/JakartaIEP_results.png" alt="Our air quality study results">
+            <div class="caption">Our air quality study results</div>
+        </div>
+      </div>
+      <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <div class="about center">
+      <p class="about__desc">
+        From the visits to Goto and Charged Indonesia, I have better understood the revolutionary impacts of electric motorcycles and the practices Goto’s sustainability team is developing and is currently implementing to reduce the negative impact of Goto’s ecosystem on Indonesia. Electric motorcycles really can pave the way for reducing the amount of emissions from fueled motorcycles on the roads of Jakarta. If more people use electric motorcycles, the air quality in Jakarta and possibly in the rest of Indonesia, can improve. This is because the most common and popular mode of private transport in Jakarta and probably in the rest of Indonesia is motorcycles.
+        <br><br>
+        I understand that Goto wants to be more sustainable and is taking firm actions to enforce its goal, unlike other big companies like the Coca-Cola Company. Nonetheless, the strategies shared by the sustainability team were interesting and shocking for a few that were stated.
+      </p>
+    </div>
+    
+    <footer class="footer">
+      <a
+        href="https://github.com/jarelland-shouwa"
+        class="link footer__link"
+      >
+        Created By Jarell
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jarell Song</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="FinalLogo6/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="FinalLogo6/favicon-32x32.png">
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="FinalLogo/favicon-16x16.png"> -->
+    <link rel="manifest" href="FinalLogo6/site.webmanifest">
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <img src="EnlighteningMe.JPG" alt="My image" />
+      <a href="index.html" class="link--name">Jarelland</a>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Achievements">Achievements</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#MyJourney">My unique odyssey</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <div class="about center">
+      <h2 class="about__role">Fake news detection model</h2>
+    </div>
+    <div class="carousel">
+      <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <img src="FakeNewsDetectionModel_S3Cp_6/S3Coursework_Image1.png" alt="One of the data visualisations created using Matplotlib">
+          <div class="caption">One of the data visualisations created using Matplotlib</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="FakeNewsDetectionModel_S3Cp_6/S3Coursework_Image2.png" alt="Thought process when training the Teachable Machine model">
+          <div class="caption">Thought process when training the Teachable Machine model</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="FakeNewsDetectionModel_S3Cp_6/S3Coursework_Image3.png" alt="How we chose our final model">
+          <div class="caption">How we chose our final model</div>
+        </div>
+      </div>
+      <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <div class="about center">
+      <p class="about__desc">
+        My team trained a supervised machine learning model to detect fake news using linguistic features, using Jupyter Notebook.
+        We targeted word frequencies and settled on <b></b>logistic regression</b>.
+        We first pre-processed the data set used, e.g. removing stopwords like "as" and "being".
+        We then created 3 data visualisations to better understand the data we were working with, e.g. word frequencies.
+        After training two models, we used two evaluation metrics to evaluate them by calculating precision, recall and F1 score.
+        <br>Our final model's results:<br>
+        Recall = 99.6% <br>
+        Classification Accuracy = 99.6%
+        <br><br>
+        When training the model, we encountered errors like convergence errors.
+        Nonetheless, we were able to train the model using techniques like regularisation to properly fit our first model onto our data set (to avoid under and overfitting).
+      </p>
+    </div>
+    
+    <footer class="footer">
+      <a
+        href="https://github.com/jarelland-shouwa"
+        class="link footer__link"
+      >
+        Created By Jarell
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

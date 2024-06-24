@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jarell Song</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="FinalLogo6/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="FinalLogo6/favicon-32x32.png">
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="FinalLogo/favicon-16x16.png"> -->
+    <link rel="manifest" href="FinalLogo6/site.webmanifest">
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <img src="EnlighteningMe.JPG" alt="My image" />
+      <a href="index.html" class="link--name">Jarelland</a>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Achievements">Achievements</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#MyJourney">My unique odyssey</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Jarell Song.</span></h1>
+        <img src="MainProfilePicture.jpg" alt="My image" />
+        <h3 class="about__role">
+          An inquisitive and humanities- and mathematics-informed technologist.
+        </h3>
+        <p class="about__desc">
+          Good day! I am Song Jun Hao Jarell, I aspire to bridge mathematics and technology as a developer. 
+          I am currently in the <i>School
+          of Science and Technology, Singapore</i>, studying <b>Computing+</b> and 
+          enrolled in the <strong>Integrated Diploma Programme (IDP)</strong>.
+        </p>
+        <div class="about__contact center">
+          <!--
+          <a href="https://sites.google.com/s2021.ssts.edu.sg/jarellportfolio/home">
+            <span class="btn btn--outline">More information/projects</span>
+          </a>-->
+
+          <a
+            href="https://github.com/jarelland-shouwa"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/song-jun-hao-jarell-student-0453a8244/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section class="section projects reveal" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <p> <i>Click on each image to learn more!</i></p>
+
+        <div class="projects__grid">
+          <div class="project">
+            <a href="project1.html">
+              <img src="project1-thumbnail.png" alt="Project 1 Thumbnail" />
+            </a>
+            <h3>Aiding pill-counting using computer vision</h3>
+            <p class="project__description">
+              My team is currently working on a prototype that <b>assists
+              pharmacists</b> in counting pills via computer vision, for a year-long capstone project with KKH and SIT.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">2023–Present</li>
+              <li class="project__stack-item">Computer Vision</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <a href="project2.html">
+              <img src="project2-thumbnail.png" alt="Project 2 Thumbnail" />
+            </a>
+            <h3>Automatic recyclables sorting machine</h3>
+            <p class="project__description">
+              Helped designed and created in a hackathon and presented to judges from ARTC. <b>Won Design Excellence Award.</b>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">2023</li>
+            </ul>
+
+            <a
+              href="https://docs.google.com/presentation/d/1R0imybm7vij30CNaOsFAxqOdK13dq9rZZnnJt0D1ohU/edit?usp=sharing"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1lB8b5BNN6N0zwG68WQkV4tKhn4FA4SLV/view?usp=sharing"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <a href="project3.html">
+              <img src="project3-thumbnail.png" alt="Project 3 Thumbnail" />
+            </a>
+            <h3>Navigation for the blind using "touch"</h3>
+            <p class="project__description">
+              Helped designed and created in a hacktathon hosted by SUTD and NP. <b>Won Design Excellence Award.</b>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">2024</li>
+            </ul>
+
+            <a
+              href="https://docs.google.com/presentation/d/18JVnKhc_IYYR4fGrII2GlM3O2jFI3TgpkN163cGquwE/edit?usp=sharing"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/17kjHXzYSnMTUMDJ0fKH3rfgp_fqjM4gP/view?usp=sharing"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <a href="project4.html">
+              <img src="project4-thumbnail.png" alt="Project 4 Thumbnail" />
+            </a>
+            <h3>Virtual Photobooth</h3>
+            <p class="project__description">
+              My team created a virtual photo booth using facial landmarks,
+              OpenCV and Python, as one of our courseworks for a hypothetical SST 15th Anniversary.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">2024</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Computer Vision – OpenCV</li>
+            </ul>
+
+            <a
+              href="https://github.com/kaydendua/Virtual-Photo-Booth"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1pyGQqNUixFuTTvxcvZrkiLnP_GAVNd6I/view?usp=drive_link"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <a href="project5.html">
+              <img src="project5-thumbnail.png" alt="Project 5 Thumbnail" />
+            </a>
+            <h3>Training a computer vision model for Raspberry Pi</h3>
+            <p class="project__description">
+              My team constructed a Computer Vision System using Raspberry Pi and
+              trained a model using Teachable Machine in the creation of a functioning search-and-rescue robot for a project.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">2024</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">
+                Computer Vision – Teachable Machine
+              </li>
+            </ul>
+            <a
+              href="https://drive.google.com/file/d/1NbetWweOAGy9f6o0WPQiUpm8Ze5adiNH/view?usp=sharing"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <a href="project6.html">
+              <img src="project6-thumbnail.png" alt="Project 6 Thumbnail" />
+            </a>
+            <h3>Fake news detection model</h3>
+            <p class="project__description">
+              My team trained a supervised machine learning model to detect fake
+              news using linguistic features, using a fake and real news data set 
+              as one of our courseworks.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">2023</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Jupyter Notebook</li>
+              <li class="project__stack-item">Google Colab</li>
+              <li class="project__stack-item">Matplotlib</li>
+              <li class="project__stack-item">Natural Language Toolkit</li>
+              <li class="project__stack-item">pandas</li>
+            </ul>
+
+            <a
+              href="https://github.com/jarelland-shouwa/fake_news_detector_S3CpCW_J/tree/main"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1vZsfXPtXvG4fyN26EeLlBWi0Qrfe8xw-/view?usp=sharing"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements -->
+      <section class="section reveal" id="Achievements">
+        <h2 class="section__title">Achievements</h2>
+        <div id="buttonContainer">
+          <!-- Note: buttonContainer is not referenced anywhere else
+          <button onclick="filterItems('All')" class="achievement-Selector  btn--plain">All</button>-->
+          <button onclick="filterItems('Computing')" class="achievement-Selector btn--plain">Computing</button>
+          <button onclick="filterItems('Innovation Camps')" class="achievement-Selector btn--plain">
+            Innovation Camps
+          </button>
+          <button onclick="filterItems('Maths')" class="achievement-Selector btn--plain">
+            Mathematics
+          </button>
+          <button onclick="filterItems('Physics')" class="achievement-Selector btn--plain">
+            Physics
+          </button>
+          <button onclick="filterItems('Academics')" class="achievement-Selector btn--plain">
+            Academics
+          </button>
+          <button onclick="filterItems('Others')" class="achievement-Selector btn--plain">
+            Others
+          </button>
+        </div>
+        <div class="achievement-grid">
+          <!-- Projects will be dynamically inserted here -->
+        </div>
+        <div id="itemContainer"></div>
+        <!-- <button id="show-more-btn" class="skills btn--plain">Show More (to be updated)</button> -->
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills reveal" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">
+            Python (intermediate–advanced)
+          </li>
+          <li class="skills__list-item btn btn--plain">Lua (basic)</li>
+          <li class="skills__list-item btn btn--plain">HTML (basic)</li>
+          <li class="skills__list-item btn btn--plain">CSS (basic)</li>
+          <li class="skills__list-item btn btn--plain">Figma (basic)</li>
+          <li class="skills__list-item btn btn--plain">DaVinci Resolve</li>
+          <li class="skills__list-item btn btn--plain">Fusion 360 (basic)</li>
+          <li class="skills__list-item btn btn--plain">
+            Visual Studio Code (basic)
+          </li>
+        </ul>
+      </section>
+
+      <section class="section projects reveal" id="MyJourney">
+        <h2 class="section__title">My Unique Odyssey</h2>
+        <p> <i>Click on each image to learn more! (if possible)</i></p>
+        <div class="timeline-selector">
+          <button onclick="showTimeline(1)" class="experience-Selector btn--plain">Education</button>
+          <button onclick="showTimeline(2)" class="experience-Selector btn--plain">Experience</button>
+          <button onclick="showTimeline(3)" class="experience-Selector btn--plain">Global learning</button>
+          <button onclick="showTimeline(4)" class="experience-Selector btn--plain">Leadership</button>
+          <button onclick="showTimeline(5)" class="experience-Selector btn--plain">Service learning</button>
+      </div>
+
+      <div class="timeline" id="timeline1">
+        <div class="timeline-item" id="timeline-item">
+          <div class="timeline-line"></div>
+          <!-- <img src="Experience/SST_NP_IDP_Admission.png" alt="SST-Ngee Ann Polytechnic Integrated Diploma Programme (SST-NP IDP)"> -->
+          <div class="text-container">
+            <p class="exp-major-text">SST-Ngee Ann Polytechnic Integrated Diploma Programme (SST-NP IDP)</p>
+            <p class="date">2023–2024</p>
+            <p class="date">SST</p>
+            <!--<embed type="text/html" src="https://www.straitstimes.com/singapore/parenting-education/those-set-on-going-to-polytechnic-or-training-for-sports-can-benefit-from-through-train-to-diploma" width="500" height="300">
+            
+              <iframe width="500"
+            height="200"
+            src="https://www.straitstimes.com/singapore/parenting-education/those-set-on-going-to-polytechnic-or-training-for-sports-can-benefit-from-through-train-to-diploma">></iframe>
+            -->
+          </div>
+        </div>
+        <div class="timeline-item" id="timeline-item">
+          <div class="timeline-line"></div>
+          <!-- <img src="Experience/SST_Logo.png" alt="School of Science and Technology, Singapore"> -->
+          <div class="text-container">
+            <p class="exp-major-text">Student of School of Science and Technology, Singapore</p>
+            <p class="date">2021–2024</p>
+            <p class="date">CCA: Basketball</p>
+          </div>
+        </div>
+        <div class="timeline-item" id="timeline-item">
+          <div class="timeline-line"></div>
+          <!-- <img src="Experience/Jurong Primary School logo.png" alt="Jurong Primary School"> -->
+          <div class="text-container">
+            <p class="exp-major-text"> Student of Jurong Primary School</p>
+            <p class="date">2015–2020</p>
+            <p class="date">CCA:  Robotics Club</p>
+            <p>
+              National Robotics Competition 2018 (Primary 4): Participation <br><br>
+              National Robotics Competition 2019 (Primary 5): Participation</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline" id="timeline2">
+        <div class="timeline-item" id="timeline-item">
+          <div class="timeline-line"></div>
+          <a href="hackathon.html">
+            <img src="Experience/Hackathon_Tech_2024_Group_photo_copy.jpeg" alt="SST-SMU IDP Technopreuship Hackathon 2024" id="openPopup">
+          </a>
+          <div class="text-container">
+            <p class="exp-major-text">👆SST-SMU IDP Technopreuship Hackathon 2024</p>
+            <p class="date">June 2024</p>
+            <p class="exp-minor-text">My team designed <b>Pitcher</b>, a website that connects investors to young technopreneurs who need to showcase and sell their digital innovations. Mainly, it has a live Q&A feature, connecting potential investors and pitchers (i.e. from a group of/a technoprenuer).</p>
+          </div>
+
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-line"></div>
+          <img src="Experience/Accredify_Techno.JPG" alt="SMU-SST Technopreneurship programme 2023 (Basic); 2024 (Advanced)">
+          <div class="text-container">
+            <p class="exp-major-text">SMU-SST Technopreneurship programme 2023 (Basic); 2024 (Advanced)</p>
+            <p class="date">March–April 2024</p>
+            <p class="exp-minor-text">I learnt about the basic fundamentals about technopreneurship and gained wisdom from those who have already established their own start-ups, going through the thick and thin. I also learnt skills and models used in businesses like the Business Model Canvas. For an activity, we pitched a AI product that allows students to prepare for oral examinations in front of a virtual oral examiner.
+              I visited <b>Accredify</b> and <b>Tribe</b> and learnt more about their companies.
+              </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-line"></div>
+          <img src="Achievements/Cert5.png" alt="HCI Sieberrsec Capture The Flag (CTF) 2024">
+          <div class="text-container">
+            <p class="exp-major-text">HCI Sieberrsec Capture The Flag (CTF) 2024</p>
+            <p class="date">March2024</p>
+            <p class="exp-minor-text">This was my first time participating in a CTF event. Not only did I had fun with my teammates, it was also exiciting to see how cybersecurity concepts are embedded into the challenges we had to solve. My team was placed 12th among ~50 teams.
+              </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-line"></div>
+          <a href="affinidiswarp.html">
+            <img src="Experience/AffinidiSWARP_Image1.jpeg" alt="Externship at Affinidi" class="openPopup">
+          </a>
+          <div class="text-container">
+            <p class="exp-major-text">👆Externship at Affinidi</p>
+            <p class="date">June 2023</p>
+            <p class="exp-minor-text">In mid-2023, I was selected to job-shadow an employee of Affinidi's – a technology start-up in Singapore specialising in decentralised identifiers – Customer Success Team, as part of the SST IDP SWARP (Structured Work Attachment and Research Programme).</p>
+          </div>
+
+        </div>
+        <!-- Add more timeline items as needed -->
+    </div>
+
+      <div class="timeline" id="timeline3">
+          <div class="timeline-item">
+              <div class="timeline-line"></div>
+              <a href="ukiep.html">
+                <img src="UKIEP2024/UKIEP2024_Image1.JPG" alt="International Exchange Programme to the UK🇬🇧" class="openPopup">
+              </a>
+              <div class="text-container">
+                <p class="exp-major-text">👆International Exchange Programme to the UK🇬🇧</p>
+                <p class="date">May 2024</p>
+                <p class="exp-minor-text">I was selected to represent SST and participate in an exchange programme with 
+                  SST Maidstone and visit Gresham's School. I had a homestay with my SST Maidstone Buddy, 
+                  visited Museums, experienced British schooling, won as a team in a bridge-building challenge, and remembered words from some of the 
+                  people who met us ("Always consider the <b> last two percent</b>").</p>
+              </div>
+          </div>
+
+          <div class="timeline-item">
+              <div class="timeline-line"></div>
+              <a href="jakartaiep.html">
+                <img src="JakartaIEP2023/JakartaIEP_Image1.jpeg" alt="International Exchange Programme to Jakarta, Indonesia🇮🇩">
+              </a>
+              <div class="text-container">
+                <p class="exp-major-text">👆International Exchange Programme to Jakarta, Indonesia🇮🇩</p>
+                <p class="date">November 2023</p>
+                <p class="exp-minor-text">As part of the Integrated Diploma Programme, I went to Jakarta, 
+                  Indonesia for a school exchange programme with Bina Bangsa School. My team collaborated in a 
+                  study of the air quality of both countries' school campuses and presented to judges 
+                  (we were one of the top teams). I really enjoyed the interaction with the BBS buddies. I also
+                   visited two companies, <b>Goto</b> and <b>Charged Indonesia</b>, where I learnt more about sustainability
+                    practices and revolutionary impacts of electronic motorcycles.</p>
+              </div>
+          </div>
+          <!-- Add more timeline items as needed -->
+      </div>
+
+      <div class="timeline" id="timeline4" style="display: none;">
+          <div class="timeline-item">
+              <div class="timeline-line"></div>
+              <a href="houseleadership.html">
+                <img src="Leadership/Leadership_Image1.JPG" alt="House Vice-captain">
+              </a>
+              <div class="text-container">
+                <p class="exp-major-text">👆House Vice-captain</p>
+                <p class="date">2023–2024 </p>
+                <p class="exp-minor-text">Involved in planning, organising and executing house-related activities. Facilitated activities like the Secondary Two Outdoor Education Expedition.</p>
+              </div>
+          </div>
+          <div class="timeline-item">
+              <div class="timeline-line"></div>
+              <img src="JHL_House_Group.JPG" alt="Junior House Leader">
+              <div class="text-container">
+                <p class="exp-major-text">Junior House Leader</p>
+                <p class="date"> 2022</p>
+                <p class="exp-minor-text">Experienced what it was like being a leader in the SST House Executive Committee. Learnt about facilitation, planning and communication.</p>
+              </div>
+          </div>
+          <!-- Add more timeline items as needed -->
+      </div>
+
+      <div class="timeline" id="timeline5" style="display: none;">
+        <div class="timeline-item">
+          <div class="timeline-line"></div>
+          <img src="WillingHeartsWashingDishes.JPG" alt="Willing Hearts Soup kitchen">
+          <div class="text-container">
+            <p class="exp-major-text">Volunteer at Willing Heart's Soup Kitchen</p>
+            <p class="date">March 2024 </p>
+            <p class="exp-minor-text">As part of our 2024 Class Service Learning Project, we went to Willing Hearts to volunteer ourselves in a soup kitchen, preparing meals for the less fortunate. I washed dishes and cut vegetables.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-line"></div>
+          <img src="HWNVisitationOct2023.JPG" alt="Community Engagement Seniors Visitation">
+          <div class="text-container">
+            <p class="exp-major-text">Community Engagement Seniors Visitation</p>
+            <p class="date">October 2023 </p>
+            <p class="exp-minor-text">I attended a programme designed by Heartware Network (HWN) that aims to develop students into community champions committed to improving the lives of others in meaningful ways.
+              It ingrains social awareness to contribute actively to the community.
+              I underwent training like Community Problem Solving and visited seniors part of the programme.
+              The senior shown to the left was delighted to share about her travels around the globe, which extremely memorable to me.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-line"></div>
+          <img src="BeachCleanUp2023.JPG" alt="Beach Clean-up">
+          <div class="text-container">
+            <p class="exp-major-text">Beach Clean-up</p>
+            <p class="date">March 2023 </p>
+            <p class="exp-minor-text">As part of our 2023 Class Service Learning Project, my class worked with National Environment Agency to organise a Beach clean-up.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-line"></div>
+          <img src="LABB_SamplePost.jpeg" alt="Secondary 2 Learning Alliance Beyond Borders (Japan & UK)">
+          <div class="text-container">
+            <p class="exp-major-text">Secondary 2 Learning Alliance Beyond Borders (Japan & UK)</p>
+            <p class="date"> 2022, with Seikyo Gakuen（清教学園）and SST Maidstone</p>
+            <p class="exp-minor-text">I worked with students from Seikyo Gakuen High School（清教学園）to advocate for a cause by creating Instagram posts.
+              The theme was on climate change. Hence, we decided to advocate for the reduction of food waste. We ideated ways people can do to reduce food waste at home.
+              Check out the posts via the Instagram account below.
+              https://www.instagram.com/p/Cg1NrbWrPHy/?utm_source=ig_web_copy_link</p>
+          </div>
+        </div>
+          <!-- Add more timeline items as needed -->
+      </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center reveal" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:song_jun_hao_jarell@s2021.ssts.edu.sg">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/jarelland-shouwa"
+        class="link footer__link"
+      >
+        Created By Jarell
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

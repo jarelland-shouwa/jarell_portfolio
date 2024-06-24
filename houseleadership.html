@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jarell Song</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="FinalLogo6/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="FinalLogo6/favicon-32x32.png">
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="FinalLogo/favicon-16x16.png"> -->
+    <link rel="manifest" href="FinalLogo6/site.webmanifest">
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <img src="EnlighteningMe.JPG" alt="My image" />
+      <a href="index.html" class="link--name">Jarelland</a>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Achievements">Achievements</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#MyJourney">My unique odyssey</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <div class="about center">
+      <h2 class="about__role">My journey as a House Vice-captain (2023–2024)</h2>
+    </div>
+    <div class="carousel">
+      <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <img src="Leadership/Leadership_Image1.JPG" alt="During my tenure as the school's Black House Vice-captain, I strived to lead my house to the common goal of becoming house champion. In 2023, I led Black House to regaining the title of House Champion">
+          <div class="caption">During my tenure as the school's Black House Vice-captain, I strived to lead my house to the common goal of becoming house champion. In 2023, I led Black House to regaining the title of "House Champion".</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="Leadership/Leadership_Image2.jpeg" alt="As part of a Secondary One Leaders in Training programme, I mentored potential student leaders by introducing them to what the house committee does and provided feedback on an event planning task, to experience what it takes to be in the house committee.">
+          <div class="caption">As part of a Secondary One "Leaders in Training" programme, I mentored potential student leaders by introducing them to what the house committee does and provided feedback on an event planning task, to experience what it takes to be in the house committee.</div>
+        </div>
+        <div class="carousel-slide">
+          <img src="Leadership/Leadership_Image4.JPG" alt="I also planned and facilitated inter-house games for the school, fostering competitiveness while promoting the house spirit. Not only did I learn how to plan competitions, but I also had to consider many factors, such as the limitations we had to work with.">
+          <div class="caption">I also planned and facilitated inter-house games for the school, fostering competitiveness while promoting the house spirit. Not only did I learn how to plan competitions, but I also had to consider many factors, such as the limitations we had to work with.</div>
+        </div>
+        <div class="carousel-slide">
+            <img src="Leadership/Leadership_Image3.JPG" alt=I was also involved in facilitating and planning the annual S2 Outdoor Education Expedition (OEE), where students trek and appreciate nature while learning teamwork, outdoor cooking and first aid skills.">
+            <div class="caption">I was also involved in facilitating and planning the annual S2 Outdoor Education Expedition (OEE), where students trek and appreciate nature while learning teamwork, outdoor cooking and first aid skills.</div>
+        </div>
+      </div>
+      <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <div class="about center">
+      <p class="about__desc">
+        My journey as a House Vice-captain (2023–2024)
+      </p>
+    </div>
+    
+    <footer class="footer">
+      <a
+        href="https://github.com/jarelland-shouwa"
+        class="link footer__link"
+      >
+        Created By Jarell
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
